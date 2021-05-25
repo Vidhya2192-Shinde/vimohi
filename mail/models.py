@@ -6,5 +6,6 @@ class Email(models.Model):
     username= models.CharField()
     password=models.CharField()
     email=models.CharField()
+    img=models.IntegerField()
 
 
