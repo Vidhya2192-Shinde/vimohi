@@ -4,7 +4,7 @@ from django.db import models
 class Email(models.Model):
 
     username= models.CharField()
-    password=models.CharField()
+    OTP=models.IntegerField
     email=models.CharField()
     img=models.IntegerField()
 
